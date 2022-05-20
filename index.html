@@ -1,3 +1,5 @@
+
+   
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,6 +26,7 @@
             <div class="link">
               <img src="./images/twitch.png" alt="" />
               <h2>Streams</h2>
+        
             </div>
             <div class="link">
               <img src="./images/steam.png" alt="" />
@@ -82,5 +85,16 @@
     </main>
     <div class="circle1"></div>
     <div class="circle2"></div>
-  </body>
+    <script>
+      const navigation = document.querySelector('.dashboard');
+      document.querySelector('.toggle').onclick = function(){
+          this.classList.toggle('active');
+          navigation.classList.toggle('active');
+      }
+  </script>
+  
+</body>
+
+  
+
 </html>
